@@ -112,7 +112,7 @@ function enhanceForms() {
             
             // Check if input has value on load
             if (input.value) {
-                input.parentElement.classList.add('focused');
+                this.parentElement.classList.add('focused');
             }
         });
         
